@@ -1,0 +1,61 @@
+
+.credit-card{
+    background-image:url('images/global-network-connection-world-map-450w-1150379396.jpg');
+    border-radius:10px;
+    width:500px;
+    padding: 5px;
+    color:white;
+}
+.credit-card-with-form
+{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.credit-card-form
+{
+    display: flex;
+    align-items:flex-end;
+    flex-direction: column;
+}
+    
+.credit-card-content
+{
+
+    display: flex;
+}
+.credit-card-text
+{
+    flex: 1;
+    padding: 0px 10px;
+}
+.credit-card-chip
+{
+    background-color:goldenrod;
+    border-radius:10px;
+    width: 50px;
+    height: 40px;
+}
+.credit-card-title
+{
+    text-align:right;
+}
+.credit-card-logo
+{
+    display: flex;
+    width: 50px;
+    align-items: flex-end;
+    float: right;
+}
+.credit-card-logo img
+{
+    width: 100%;
+    padding: 5px;
+}
+.credit-card-validthru
+{
+    text-align: right;
+}
+.credit-card-cardnumber{
+    background-color: gray;
+    opacity: 0.7;
+}
